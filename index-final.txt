@@ -1,0 +1,114 @@
+
+  
+  <div data-template="modal">
+  </div>
+
+    
+<div data-template="social" class="hidden">
+  <header class="border-box padding-horz-medium padding-bottom-xsmall margin-bottom-small border-bottom border-gray-light width-100">
+    <h4 class="head-3 icon-left-small icon-share-charcoal">शेयर करना</h4>
+  </header>
+  <ul class="list-no-style">
+    <li>
+      <a
+        target="_blank"
+        rel="noopener"
+        href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.classcentral.com%2F"
+        class="padding-horz-medium padding-vert-xxsmall color-charcoal block hover-bg-gray-light hover-no-underline"
+        data-track-click="social_click"
+        data-track-props='{ "type": "फेसबुक", "title": "" }'
+        data-track-ga='[
+          { 
+            "category": "Social Widget sharing by network", 
+            "action": "facebook", 
+            "label": ""
+          },
+          { 
+            "category": "Social Widget sharing by page", 
+            "action": "home", 
+            "label": ""
+          }
+        ]'
+      >
+        <span class="text-1 icon-facebook-outline-charcoal icon-left-small">फेसबुक</span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.classcentral.com%2F&amp;text=&amp;via=classcentral"
+        target="_blank"
+        rel="noopener"
+        class="padding-horz-medium padding-vert-xxsmall hover-no-underline color-charcoal block hover-bg-gray-light"
+        data-track-click="social_click"
+        data-track-props='{ "type": "ट्विटर", "title": "" }'
+        data-track-ga='[
+          { 
+            "category": "Social Widget sharing by network", 
+            "action": "twitter", 
+            "label": ""
+          },
+          { 
+            "category": "Social Widget sharing by page", 
+            "action": "home", 
+            "label": ""
+          }
+        ]'
+      >
+        <span class="text-1 icon-twitter-outline-charcoal icon-left-small">ट्विटर</span>
+      </a>
+    </li>
+    <li>
+      <a href="/cdn-cgi/l/email-protection#b28dc1c7d0d8d7d1c68f94d3dfc289d0ddd6cb8f978082dac6c6c2c19781f39780f49780f4c5c5c59cd1ded3c1c1d1d7dcc6c0d3de9cd1dddf9780f4" class="padding-horz-medium padding-vert-xxsmall hover-no-underline color-charcoal block hover-bg-gray-light" data-track-click="social_click" data-track-props='{ "type": "ईमेल", "title": "" }' data-track-ga='[
+          { 
+            "category": "Social Widget sharing by network", 
+            "action": "email", 
+            "label": ""
+          },
+          { 
+            "category": "Social Widget sharing by page", 
+            "action": "home", 
+            "label": ""
+          }
+        ]'>
+        <span class="text-1 icon-envelope-charcoal icon-left-small">ईमेल</span>
+      </a>
+    </li>
+    <li
+      data-track-click="social_click"
+      data-track-props='{ "type": "Copy Link", "title": "" }'
+      data-track-ga='[
+        { 
+          "category": "Social Widget sharing by network", 
+          "action": "copy link", 
+          "label": ""
+        },
+        { 
+          "category": "Social Widget sharing by page", 
+          "action": "home", 
+          "label": ""
+        }
+      ]'
+    >
+      <button
+        data-name="COPY"
+        data-detail='{ "url": "https://www.classcentral.com/" }'
+        class="width-100 padding-horz-medium padding-vert-xxsmall color-charcoal block hover-bg-gray-light"
+      >
+        <span class="text-1 icon-link-charcoal icon-left-small" data-template="social-copy-link"><span class="inline-block">लिंक की प्रतिलिपि करें</span></span>
+      </button>
+      <div class="padding-horz-medium margin-vert-xsmall">
+        <input 
+          onClick="this.select();"
+          class="input-white input-small width-100 block"
+          value="https://www.classcentral.com/"
+        />
+      </div>
+    </li>
+  </ul>
+</div>
+
+    
+      
+    <div data-template="notifications"></div>
+
+  
